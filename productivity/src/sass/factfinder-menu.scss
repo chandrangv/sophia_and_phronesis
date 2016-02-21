@@ -1,0 +1,52 @@
+.factfinder-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+
+  ul {
+    margin: $spacing-none-val;
+
+    li{
+      margin-top: $spacing-medium-val;
+    }
+  }
+
+div {
+    margin-bottom: $spacing-small-val;
+  }
+
+  /* the following styles were created using http://www.cssarrowplease.com/ */
+  .arrow_box {
+  	position: relative;
+  	background: #FFFFFF;
+  	border: 2px solid #406077;
+    width: 300px;
+    height: 120px;
+    padding: $spacing-medium-val;
+  }
+
+  .arrow_box:after, .arrow_box:before {
+  	right: 100%;
+  	top: 50%;
+  	border: solid transparent;
+  	content: " ";
+  	height: 0;
+  	width: 0;
+  	position: absolute;
+  	pointer-events: none;
+  }
+
+  .arrow_box:after {
+  	border-color: rgba(255, 255, 255, 0);
+  	border-right-color: #FFFFFF;
+  	border-width: 20px;
+  	margin-top: -20px;
+  }
+  .arrow_box:before {
+  	border-color: rgba(64, 96, 119, 0);
+  	border-right-color: #406077;
+  	border-width: 23px;
+  	margin-top: -23px;
+  }
+}

@@ -1,0 +1,21 @@
+.side-navigation {
+	a:visited,
+	a {
+		text-decoration: none;
+	    color: #ffffff;
+	    display: block;
+	}
+
+	li {
+    	color: #9C9C9C;
+	}
+	
+	a:hover {
+		background-color: transparent;
+	}
+
+	li.selected {
+		background-color: #002B49;
+		border-right: 0.75rem solid #FFB81C;
+	}
+}

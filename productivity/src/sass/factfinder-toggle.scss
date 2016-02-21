@@ -1,0 +1,23 @@
+/*These styles are for the factfinder-toggle component*/
+
+.factfinder-toggle {
+  &.gender button {
+    width: 6rem;
+  }
+
+  &.yes-no button {
+    width: 5rem;
+  }
+
+  &.client-coclient button {
+  }
+
+  button {
+      outline-color: none;
+      outline-style: none;
+  }
+
+  .selected {
+      background-color: #127C99;
+  }
+}

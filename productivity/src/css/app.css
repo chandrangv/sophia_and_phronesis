@@ -1,0 +1,604 @@
+body
+{
+    background: #FFFFFF;
+   
+}
+
+.retirementCard{
+
+    border:1px solid #c1c1c1;
+    background-color: #c1c1c1;
+}
+
+#app{
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100%;
+
+}
+
+#page-navigation h1 {
+    display: inline-block;
+}
+
+#page-navigation button{
+    margin: 0;
+}
+
+.bottomSection
+ {
+    background: #336283;
+}
+
+
+
+.insurance-coverage{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #FDF9DC;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05)
+}
+
+.heading
+{
+               color: #fff;
+               font-size: 26px;
+               font-family: arial;
+               text-align: center;
+}
+
+.clear
+{
+               clear: both;
+}
+
+
+img.image.config {
+    margin-top: 125px;
+}
+img.image.info {
+    margin-top: 125px;
+}
+a.button.success {
+    padding: 10px;
+}
+#popup{
+    width: 280px;
+    background: #FFF;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+    display: none;
+}
+#popup .pupupHead{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#popup a{
+    text-align: center;
+    display: block;
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#popup a:first-child{
+    border-right: 1px solid #ccc;
+}
+
+
+#about{
+    width: 280px;
+    background: #FFF;
+    border-radius: 10px;
+    text-align: left;
+    font-family: arial;
+    font-size: 14px;
+    display: none;
+}
+
+#about .pupupHead{
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: black;
+}
+#about .popupText{
+    text-align: left;
+}
+
+.aboutHeader {
+    color: white;
+    background-color: #001529;
+    padding: 5px;
+    text-align: center;
+}
+
+#aboutModal .modal.small {
+    width: 380px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+
+#cr-text {
+
+    margin-top: 30px;
+
+
+}
+
+.top-bar-section img {
+
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#home-btn  {
+
+    list-style-type: none;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-top: -2px;
+
+
+}
+
+#home-btn > a {
+
+    text-decoration: none;
+    height: 20px;
+    width: 20px;
+    color: black;
+
+}
+
+
+
+#home-icon {
+
+    margin-left: -2px;
+    margin-top: -2px !important;
+    list-style-type: none;
+
+}
+
+#home-icon > a {
+
+    text-decoration: none;
+
+
+}
+
+
+
+#blank-column {
+
+    position: fixed;
+    height: 100%;
+    background-color: #002B49;
+
+
+
+}
+
+
+#subHeaderPosition {
+
+    position: fixed;
+    top: 70px;
+    left: 15%;
+    width: 85%;
+    height: 70px;
+    margin: 0 !important;
+    z-index: 2;
+
+}
+
+
+
+#subheader-title {
+
+    margin: auto;
+    font-weight: bolder;
+
+}
+
+
+
+input[type="text"],[type="password"]{
+    height:2rem !important;
+    /*background-color: yellow !important;*/
+}
+
+.prefix {
+
+    height: 2rem !important;
+
+}
+
+.prefix p {
+
+    margin-top: 8px;
+
+
+
+}
+
+input[type="text"].highlight,[type="password"].highlight,
+input[type="radio"].highlight{
+    background-color: #FDF9DC;
+}
+
+input[type="text"].error .highlight,[type="password"].error .highlight{
+    background-color: #FDF9DC;
+}
+
+
+input[type="text"]:focus.highlight,input[type="password"]:focus.highlight{
+    background-color: #FDF9DC;
+}
+
+input[type=radio]:checked.highlight{
+    background-color: #FDF9DC;
+}
+
+input[type="radio"]{
+    height:1rem !important;
+    width:1rem !important;
+    margin: 0 0 0.5rem 0 !important;
+}
+
+label{
+    margin-bottom: 0.25rem !important;
+}
+
+select.highlight{
+    background-color: #FDF9DC;
+}
+
+select:hover.highlight{
+    background-color: #FDF9DC;
+}
+
+
+
+#monthlyTable {
+
+
+    margin-left: 35px;
+
+}
+
+
+#monthlyTable .card {
+
+    height: 120px;
+    background-color: #E8E8E8;
+
+}
+
+
+ #monthlyIncomeSlider {
+
+
+    margin-left: 5px;
+
+}
+
+#whoseDeath > togglelabel {
+
+    color: black;
+
+}
+
+#monthlyTable .card.center-tile {
+    background-color: #00ABD3;
+    cursor: pointer;
+}
+
+#monthlyTable .card.center-tile > p {
+    color: white;
+}
+
+#monthlyTable .card > p {
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    margin-bottom: 0;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#monthlyTable .card.monthlyIncomeOutput, #monthlyTable .card.monthlyIncomeInput, #monthlyTable .card.yearsOfIncomeInput {
+
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 10rem;
+}
+
+
+#monthlyTable .card.monthlyIncomeInput {
+
+
+    border: none;
+    box-shadow: none;
+    background-color: white;
+}
+
+#monthlyTable .card.yearsOfIncomeInput {
+
+    box-shadow: none;
+    background-color: white;
+}
+
+
+
+#monthlyTable .row {
+
+
+    margin-top: 30px;
+
+
+}
+
+
+
+
+#monthlyIncomeTitle {
+
+    position: absolute;
+    top: 71%;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+
+}
+
+
+#yearsInputField {
+
+
+    height: 200px;
+
+
+}
+
+
+#monthlyTable .infoTxt {
+
+
+    text-align: center;
+    color: blue;
+
+
+
+}
+
+#monthlyTable .yearsInput {
+
+
+     background-color: #F1F1F1;
+     color: #666;
+     font-weight: bolder;
+     font-size: 1.2rem;
+
+}
+
+
+/************************************* Survior Income Page Styles ***************************************************/
+
+#survivorIncome table {
+
+    width: 100%;
+
+
+}
+
+#debtExpense h5.letter {
+
+    position: relative;
+    margin-top: -25px;
+    left: 75%;
+    width: 15px;
+}
+
+
+#debtExpense .questionStyle {
+
+    color: #444;
+    font-style: normal;
+    font-size: .9rem;
+
+
+}
+
+
+#debtExpense .headerQuestion {
+
+    width: 60%;
+
+
+}
+
+#debtExpense .headerCheckBox {
+
+    width: 10%;
+
+}
+
+#debtExpense .headerInputLeft {
+
+    width: 15%;
+
+}
+
+#debtExpense .headerInputRight {
+
+    width: 15%;
+
+}
+
+
+#debtExpense .headerInputCenter {
+
+    width: 30%;
+
+}
+
+
+
+#debtExpense .rowColor {
+
+    background-color: #F1F1F1;
+
+
+
+}
+
+#debtExpense .rowColorTop {
+
+    background-color: #F1F1F1;
+    border: 1px solid #E0E0E0;
+    padding-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+#debtExpense .rowAnswerTop {
+
+    border: 1px solid #E0E0E0;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+#debtExpense .addBTN {
+
+   float: right;
+   margin: 10px 10px 10px 0;
+
+
+}
+
+#debtExpense .answerRow {
+
+   margin-left: -12px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+
+
+
+}
+
+textarea#youFeelAboutThisNumberAnswer, #lifeInsuranceSituationAnswer, #thoughtsOnLifeInsuranceAnswer, #typeAndLengthOfInsuranceAnswer {
+
+ background-color: #fff;
+
+}
+
+#debtExpense .centerInput input[type="text"] {
+
+    width: 45%;
+    position: relative;
+    left: 25%;
+
+}
+
+ {
+
+    margin-top: -10px;
+    border: 1px red;
+}
+
+
+#debtExpense input[type=checkbox] {
+    margin-bottom: 4px;
+}
+
+#debtExpense .highlight input[type="text"] {
+
+    background-color: #FDF9DC;
+
+}
+
+.rectbox {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #FDF9DC;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05)
+}
+.floatleft {
+    float:left !important;
+}
+
+
+#debtExpense .whiteField input[type="text"] {
+
+    background-color: #fff;
+
+}
+
+#debtExpense .percentage input[type="text"]::after {
+
+    content: '%';
+
+
+}
+
+.factfinder-note{
+    display: inline-block;
+}
+
+.hideSelect {
+
+ display:none; visibility:hidden; height:0; font-size:0;
+
+
+}
+
+
+.description-margin {
+
+    margin-top: 25px;
+
+}
+
+
+
+
+
+
+
+

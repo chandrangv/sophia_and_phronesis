@@ -1,0 +1,39 @@
+#disability-income{
+	.after-tax-income{
+	}
+
+	.comission-question {
+	}
+
+	& > .card > div {
+		margin-bottom: $spacing-large-val;
+	}
+
+	.monthly-after-tax-income{
+		input[type="checkbox"] {
+			vertical-align: baseline;
+		}
+	}
+
+	#after-tax-inome {
+		.remove-button{
+			color: $cinnamon-red;
+		}
+	}
+}
+
+
+
+/*Styles for factfinder results table */
+
+
+#factfinder-list {
+	width: 100%;
+	min-height: 10%;
+	overflow: scroll;
+}
+
+#factfinder-list .header-styling {
+    border-bottom: 2px groove #9EA2A2;
+    color: #444444
+}

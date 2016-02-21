@@ -1,0 +1,80 @@
+/*  ######################### 
+ *	### Calculator styles ###
+ *  ######################### */
+
+.factfinder-modal {
+    position: fixed;
+	top: 0;
+	left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100000000;
+    background-color: rgba(68,68,68,0.2);
+}
+
+.factfinder-modal.hide {
+    display: none;
+}
+
+.factfinder-modal .container{
+    position: fixed;
+	top: 0;
+	left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#calculator {
+	padding: 10px 10px 0 10px;
+	width: 462px; /* 4 x (button's width + padding + border) (assuming border-box layout) */
+    background-color: #444444; /*$charcoal-grey*/
+    margin: 3rem auto;
+}
+
+#calculator > div{
+    overflow: hidden;
+    clear: both;
+}
+
+#calculator button {
+    float: left;
+    margin: 2px;
+    padding: 5px;
+    line-height: 1;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+    width: 106px;
+    height: 106px;
+    font-size: 1.5em;
+}
+
+#calculator .keypad-toggle, #calculator .footer{
+    margin: 10px 0;
+}
+
+#calculator .keypad-toggle button, #calculator .footer button {
+    width: 216px; /* 2 x (button's width + button's margin) - 2 x (button's margin)*/
+    height: 50px;
+}
+
+#calculator .display {
+    text-align: right;
+    width: 440px; /* 4 x (button's width + button's margin)*/
+    height: 3rem; /* display-text's line-height*font-size*/
+    background-color: #FFF; /*$true-white*/
+}
+
+#calculator .display .display-inner {
+    overflow: hidden;
+}
+
+#calculator .display .display-inner .display-text { 
+	font-size: 1.5rem;
+	line-height: 2;
+    padding-right: 10px;
+	overflow: hidden;
+	width: 1000px;
+    float: right;
+}

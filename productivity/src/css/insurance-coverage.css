@@ -1,0 +1,16 @@
+﻿.insurance-coverage .toggle-option, 
+.insurance-coverage .dropdown{
+    display:inline-block;
+}
+
+.insurance-coverage .insurance-details .dropdown{
+    display:block;
+}
+
+.insurance-coverage .insurance-details button{
+	margin-bottom: 0;
+}
+
+.insurance-coverage img{
+    cursor:pointer;
+}

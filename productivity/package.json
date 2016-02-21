@@ -1,0 +1,46 @@
+{
+  "name": "productivity",
+  "version": "1.0.0",
+  "description": "hackathon 2016 application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "node_modules/.bin/cucumber-js ./www/src/test/features --format=/www/src/test/features/formatters/teamcityListener.js"
+  },
+  "author": "sophia and phorenesis team",
+  "license": "ISC",
+  "devDependencies": {
+    "cordova-lib": "^5.3.3",
+    "cucumber": "^0.9.1",
+    "gulp": "^3.9.0",
+    "gulp-buffer": "0.0.2",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-decompress": "^1.2.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-open": "^1.0.0",
+    "gulp-react": "^3.1.0",
+    "gulp-sass": "^2.1.1",
+    "ios-sim": "^5.0.3",
+    "keymirror": "^0.1.1",
+    "merge2": "^0.3.6",
+    "rc-slider": "^3.3.1",
+    "reactify": "^1.1.1",
+    "request": "^2.67.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "browserify": "^11.2.0",
+    "cordova-plugin-file": "^3.0.0",
+    "flux": "^2.1.1",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.7",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.5",
+    "react-addons-update": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-router": "^0.13.3"
+  }
+}

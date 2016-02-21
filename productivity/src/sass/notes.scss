@@ -1,0 +1,38 @@
+/*
+
+#formNotes .factfinder-note  img{
+    margin-top: -50px !important;
+}
+
+#formNotes{
+    padding-top: 1.2em;
+    padding-left: 4em;
+}
+
+#formNotes .topPading{
+    padding-top: 1.2em;
+    border: 1px red solid;
+}
+*/
+
+
+
+.factfinder-note {
+	&__icon {
+		color: $kelly-green;
+		display: inline-block;
+		font-size: 1.9rem;
+		line-height: 1;
+		vertical-align: middle;
+		margin-right: $spacing-medium-val;
+
+		&--hide {
+			visibility: hidden;
+		}
+	}
+
+	&__text-area {
+	    min-height: 150px !important;
+	}
+
+}
